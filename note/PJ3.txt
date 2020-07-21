@@ -1,0 +1,174 @@
+<홈페이지명>
+Only Bath
+
+<역할분담>
+박지현:  Index-section1,2,4  /  시공사례, 시공후기, 이벤트
+최지은:  Index-header, section3  /  전체시공, 부분시공, 상세견적, 오시는길
+곽승지:  Index-section5, footer  /  브랜드 소개, 로그인, 회원가입, 공지사항, FAQ, 
+
+<메뉴>
+Company : 브랜드소개 오시는길
+Products : 전체시공 부분시공
+Community : 시공사례 시공후기 이벤트
+Customer : 공지사항 FAQ
++로그인 +회원가입
+
+<메인>
+1. 슬라이드 : 2020 트렌드 및 신상품 안내
+2. 시공 사례 : 모던, 심플, 세련, 패턴
+3. 제품 : 거울, 세면대, 욕조, 욕실장
+4. 리뷰 (시공 후기) : #인스타 방식으로 
+5. 비디오, 이벤트 
++(사이드바 : 카톡, 전화번호, 견적문의(버튼))
+
+<세부사항>
+1. height: 100% ㄴㄴ 
+2. 패럴렉스 (일단 메인)
+3. https://wishhome.co.kr/  --> 부분시공 참고
+4. https://www.saturn.co.kr/68   https://www.saturn.co.kr/worldbath --> 전체시공 참고
+5. 할인이벤트, 후기이벤트, https://www.slou.co.kr/notice/detail?noticeNo=NOT181200022
+6.편안한 느낌, 고급진 느낌 
+7. 사이드바: 태블릿-푸터, 모바일은 사라짐or 푸터고정
+8. pc: 메인80%, tablet: 메인 90%, mobile: 메인 98% (padding 1%)
+
+<색상>
+#081226  #594442  #F2F2F2  #D9D9D9 #BFBFBF
+#F2505D  #403E3B
+
+<폰트>
+한글(나눔스퀘어 ), 영문(Haansoft Dotum, HYnamL, Haan Cooljazz B)
+header - Haansoft Dotum
+          - 영문(font18px, 자간 100), 한글(font 18px, 자간 100)
+
+slide  : HYnamL (font 72px 자간 100)
+	- slide[more] : Haansoft Dotum (font : 24px  자간 25)
+
+section2 - Haansoft Dotum (title-40px, content-30px, center-20~24px,)
+	-제목 font40px, 자간845;
+	-content : font 30px, 자간 845(마지막 text는 405)
+	-center : font 24px, 자간 25, 행각 33,(자세히보기 font 20px, 자간 25,행간 33)
+
+section3-Haansoft Dotum
+	-제목 font 40px, 자간 845,; 부제목: font 24px, 자간 305
+	- click - font 18px
+
+section4 - Haansoft Dotum , Haan Cooljazz B
+	- 제목 한글(font 28px, 자간 845), 영문(font 40px, 자간 845), 
+	-button font 20px, 자간 105
+	-content 제목(font 30px, 자간 65), 내용(font 16px, 자간 325, 행간 34)
+
+section5- 
+
+footer - Haansoft Dotum 
+         - font 12px, 자간 100, 행간 16px
+
+<참고 사이트>
+슬로우
+https://www.slou.co.kr/
+
+세턴바스
+https://www.saturn.co.kr/movie
+
+이누스몰
+https://www.inusmall.com/shop/main/index.php
+
+위시홈
+https://wishhome.co.kr/
+
+Sion
+http://xn--ob0b982bxa398a.kr/bbs/board.php?bo_table=after
+
+대림바스
+https://www.daelimbath.com/Brand/Technology1
+
+LAUFEN
+https://www.laufen.com/
+
+<이미지 참고 사이트>
+메인1 (슬라이드)
+https://www.laufen.com/
+메인2(심플)
+https://www.bigbathroomshop.co.uk/milano-altcar-stone-grey-modern-oval-double-ended-freestanding-bath-1695mm-x-750mm-77129
+메인2 (모던)
+https://www.hauteresidence.com/the-art-of-the-modern-luxury-bathroom/
+메인2(유니크, 패턴)
+https://www.realtor.com/advice/home-improvement/what-is-a-bathroom-vanity/
+메인2(럭셔리)
+https://free3d.com/3d-model/bathroom-luxury-gold-1-5938.html
+
+서브(럭셔리)
+https://www.hgtv.com/design/remodel/bathroom-remodel/bathrooms-with-luxury-features-pictures
+https://www.pinterest.co.kr/pin/716564990682934318/
+
+
+section5 이벤트
+http://www.daelimbath.com/Community/EventView?ArticleIdx=24565
+https://www.inusmall.com/shop/goods/goods_event.php?&sno=142
+http://www.daelimbath.com/Community/EventView?ArticleIdx=14373
+
+
+
+sub-products 이미지출처
+-전체-
+[simple]
+심플2 https://lockwood.co.nz/gallery-board/bathrooms/
+심플3,4 http://www.home-designing.com/master-bathroom-interior-design-ideas
+심플5 https://freshome.com/bathroom/30-marble-bathroom-design-ideas-styling-up-your-private-daily-rituals/
+심플6 http://designshopinteriors.com/blog/marble-bathroom-goals/
+심플7,8,9 http://www.home-designing.com/modern-minimalist-bathroom-interior-design-decor-photos
+
+[modern]
+모던2 https://www.thespruce.com/scandinavian-style-bathrooms-4149691
+모던3 https://apnews.com/9f5a5c81d3d544d3906396615125cb37
+모던4,5,6,7 http://www.home-designing.com/master-bathroom-interior-design-ideas
+모던8 http://www.home-designing.com/modern-bathroom-interior-design-ideas-inspiration-photos-tips-accessories
+모던9 http://www.home-designing.com/modern-minimalist-bathroom-interior-design-decor-photos
+
+[luxury]
+럭셔리2 https://freshdesign.info/arabic-interior-design
+럭셔리3,럭셔리4 http://www.home-designing.com/master-bathroom-interior-design-ideas
+럭셔리5,6,7,8 http://www.home-designing.com/small-and-large-luxury-bathroom-ideas-photos-tips
+럭셔리9 https://freshome.com/bathroom/30-marble-bathroom-design-ideas-styling-up-your-private-daily-rituals/
+
+[unique]
+유니크2, 유니크3  https://lockwood.co.nz/gallery-board/bathrooms/
+유니크4,5,6,7 http://www.home-designing.com/master-bathroom-interior-design-ideas
+유니크8 http://www.home-designing.com/sensational-bathrooms-with-natural-timeless-elegance
+유니크9 https://www.maisonvalentina.net/blog/minimalist-bathroom-design-ideas-utm_contentartigosproduto/
+유니크10, 11 https://freshome.com/bathroom/30-marble-bathroom-design-ideas-styling-up-your-private-daily-rituals/
+유니크12 https://www.overstock.com/guides/small-bathroom-storage-ideas
+
+
+-개별- 
+[cabinet] 
+수납장2,3,4 http://www.home-designing.com/modern-bathroom-vanities-interior-design-ideas-inspiration-photos
+
+[sink]
+싱크1 https://lockwood.co.nz/gallery-board/bathrooms/
+싱크2,3,4,5,6,7,8 http://www.home-designing.com/buy-unique-vanity-bathroom-sinks-for-sale-online
+싱크9http://designshopinteriors.com/blog/marble-bathroom-goals/ 
+싱트10 http://www.home-designing.com/modern-bathroom-vanities-interior-design-ideas-inspiration-photos
+
+[bath]
+배스1, 배스2, 배스3 https://lockwood.co.nz/gallery-board/bathrooms/
+배스4,5 http://www.home-designing.com/sensational-bathrooms-with-natural-timeless-elegance
+배스6,7,8 http://www.home-designing.com/buy-bathtubs-for-sale-online
+배스9 https://freshome.com/bathroom/30-marble-bathroom-design-ideas-styling-up-your-private-daily-rituals/
+
+[mirror]
+미러1 https://lockwood.co.nz/gallery-board/bathrooms/
+미러2 http://www.home-designing.com/master-bathroom-interior-design-ideas
+미러3,4,5,6 http://www.home-designing.com/modern-bathroom-vanities-interior-design-ideas-inspiration-photos
+미러7 https://www.residentialproductsonline.com/7-medicine-cabinets-will-upgrade-your-baths
+
+
+
+
+
+
+
+
+
+
+
+
