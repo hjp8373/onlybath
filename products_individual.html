@@ -518,65 +518,125 @@
             var modalReset = $(".modalBot > input:reset");
             
             var bathGuide = [
-                
-            ], cabinetGuide = [
-                
-            ], mirrorGuide = [
-                
-            ], sinkGuide = [
-                
-            ], 
+                "욕조 설명1",
+                "욕조 설명2",
+                "욕조 설명3",
+                "욕조 설명4",
+                "욕조 설명5",
+                "욕조 설명6",
+                "욕조 설명7",
+                "욕조 설명8",
+                "욕조 설명9"
+            ];
+            var cabinetGuide = [
+                "수납장 설명1",
+                "수납장 설명2",
+                "수납장 설명3",
+                "수납장 설명4"
+            ];
+            var mirrorGuide = [
+                "거울 설명1",
+                "거울 설명2",
+                "거울 설명3",
+                "거울 설명4",
+                "거울 설명5",
+                "거울 설명6",
+                "거울 설명7",
+                "거울 설명8",
+                "거울 설명9"
+            ];
+            var sinkGuide = [
+                "세면대 설명1",
+                "세면대 설명2",
+                "세면대 설명3",
+                "세면대 설명4",
+                "세면대 설명5",
+                "세면대 설명6",
+                "세면대 설명7",
+                "세면대 설명8",
+                "세면대 설명9",
+                "세면대 설명10"
+            ];
+            var doorGuide = [
+                "문 설명1",
+                "문 설명2",
+                "문 설명3",
+                "문 설명4"
+            ];
+            var lightingGuide = [
+                "조명 설명1",
+                "조명 설명2",
+                "조명 설명3",
+                "조명 설명4",
+                "조명 설명5"
+            ];
+            var tileGuide = [
+                "타일 설명1",
+                "타일 설명2",
+                "타일 설명3",
+                "타일 설명4",
+                "타일 설명5",
+                "타일 설명5"
+            ];
+            var toiletGuide = [
+                "변기 설명1",
+                "변기 설명2",
+                "변기 설명3"
+            ];
             
                 /*setting*/
             for(var i = 0; i < 9; i++){
                 bath.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/bath/bath' + (i+1) + '.jpg" alt=""><h3>욕조' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/bath/bath' + (i+1) + '.jpg" alt=""><h3>욕조' + (i+1) + '</h3><p>' + bathGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 4; i++){
                 cabinet.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/cabinet/cabinet' + (i+1) + '.jpg" alt=""><h3>캐비넷' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/cabinet/cabinet' + (i+1) + '.jpg" alt=""><h3>캐비넷' + (i+1) + '</h3><p>' + cabinetGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 9; i++){
                 mirror.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/mirror/mirror' + (i+1) + '.jpg" alt=""><h3>거울' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/mirror/mirror' + (i+1) + '.jpg" alt=""><h3>거울' + (i+1) + '</h3><p>' + mirrorGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 10; i++){
                 sink.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/sink/sink' + (i+1) + '.jpg" alt=""><h3>세면대' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/sink/sink' + (i+1) + '.jpg" alt=""><h3>세면대' + (i+1) + '</h3><p>' + sinkGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 4; i++){
                 door.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/door/door' + (i+1) + '.png" alt=""><h3>문' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/door/door' + (i+1) + '.png" alt=""><h3>문' + (i+1) + '</h3><p>' + doorGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 5; i++){
                 lighting.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/lighting/lighting' + (i+1) + '.jpg" alt=""><h3>조명' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/lighting/lighting' + (i+1) + '.jpg" alt=""><h3>조명' + (i+1) + '</h3><p>' + lightingGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 6; i++){
                 tile.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/tile/tile' + (i+1) + '.png" alt=""><h3>타일' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/tile/tile' + (i+1) + '.png" alt=""><h3>타일' + (i+1) + '</h3><p>' + tileGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             for(var i = 0; i < 3; i++){
                 toilet.append(
-                    '<article><div class="articleInner"><img src="img/sub_product/toilet/toilet' + (i+1) + '.jpg" alt=""><h3>변기' + (i+1) + '</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
+                    '<article><div class="articleInner"><img src="img/sub_product/toilet/toilet' + (i+1) + '.jpg" alt=""><h3>변기' + (i+1) + '</h3><p>' + toiletGuide[i] + '</p><input type="button" id="addBtn' + i + '" name="addBtn" value="견적 추가" class="addBtn"></div></article>'
                 );
             }
             
-           /*<article>
+           /*
+            >> HTML구조
+           <article>
                 <div class="articleInner">
                     <img src="img/sub_product/luxury/luxury(숫자).jpg" alt="">
                     <h3>두샘 럭셔리 화이트(숫자)</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     <input type="button" id="addBtn' + (i+1) + '" name="addBtn" value="견적추가" class="addBtn">
                 </div>
-            </article> */
+            </article> 
+            */
             
             for(var i = 5; i < 41; i++){
                 if(i != 5 && i != 40){
@@ -618,11 +678,6 @@
             
             radio.click(function(){
                 var tg = radio.index(this);
-                
-                /*if(addItemsCount != 0){
-                    alert("장바구니를 모두 비워주세요");
-                    return false;
-                }*/
                 
                 section.stop().fadeOut(100);
                 
@@ -764,10 +819,9 @@
                     console.log("error");
                 }
                 
-                //console.log("몇번째 아이템?  " + i);
-                //console.log("누른 순서 " + itemList.indexOf(i));
-                
-                /*<div class="modalContents">
+                /*
+                >> HTML 구조
+                <div class="modalContents">
                     <div class="choice_item">
                         <img src="img/sub_product/simple/simple1.jpg" alt="">
                         <div class="modalContents_txt">
@@ -775,7 +829,8 @@
                             <p>설명 설명 설명</p>
                         </div>
                     </div>
-                </div>*/
+                </div>
+                */
             }
             
         });
@@ -859,7 +914,6 @@
                     <input type="button" id="estimateAdd" name="estimateAdd" value=" | 견적서 보기">
                     <input type="button" id="estimateReset" name="estimateReset" value="초기화">
                 </div>
-                
             </form>
             
             <section class="bath"></section>
