@@ -354,7 +354,8 @@
         /*large pc*/
         @media screen and (max-width:1599px){
             article > .articleInner > p{
-                padding-bottom: 40px; 
+                padding-bottom: 40px;
+                height: 80px;
             }
             article::before{
                 padding-top: 150%;
@@ -473,8 +474,10 @@
             article > .articleInner > p{
                 float: left;
                 width: 50%;
-                padding: 0px 0px 10px 10px;
+                padding: 0px 0px 0px 10px;
                 font-size: 0.9rem;
+                height: auto;
+                flex: 1;
             }
             .addBtn{
                 width: calc(50% - 5px); height: 7vw;
@@ -573,14 +576,17 @@
                 );
             }
             
-           /*<article>
+           /*
+           >> HTML구조
+           <article>
                 <div class="articleInner">
                     <img src="img/sub_product/luxury/luxury(숫자).jpg" alt="">
                     <h3>두샘 럭셔리 화이트(숫자)</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     <input type="button" id="addBtn' + (i+1) + '" name="addBtn" value="견적추가" class="addBtn">
                 </div>
-            </article> */
+            </article> 
+            */
             
             for(var i = 5; i < 41; i++){
                 if(i != 5 && i != 40){
@@ -757,18 +763,17 @@
                 }else if(isItem == 1){ //추가
                     itemList.push(i);
                     $("#modalContents").append(function(){
-                    return '<div class="choice_item">' + '<img src="'+ itemImg +'">' 
-                        + '<div class="modalContents_txt"><h3 class="productName">' 
+                    return '<div class="choice_item">' + '<img src="'+ itemImg +'">'
+                        + '<div class="modalContents_txt"><h3 class="productName">'
                         + itemName + '</h3><p>설명 설명 설명</p></div></div></div>'
                     });
                 }else{
                     console.log("error");
                 }
                 
-                //console.log("몇번째 아이템?  " + i);
-                //console.log("누른 순서 " + itemList.indexOf(i));
-                
-                /*<div class="modalContents">
+                /*
+                >> HTML구조
+                <div class="modalContents">
                     <div class="choice_item">
                         <img src="img/sub_product/simple/simple1.jpg" alt="">
                         <div class="modalContents_txt">
@@ -776,7 +781,8 @@
                             <p>설명 설명 설명</p>
                         </div>
                     </div>
-                </div>*/
+                </div>
+                */
             }
             
         });
@@ -852,7 +858,7 @@
             <section class="unique"></section>
             <section class="luxury"></section>
             
-            <!--장바구니 모달-->
+            <!--모달 추가-->
             <div id="modalBox">
                 <div class="modal_layer"></div>
                 <div class="modal_content">
@@ -876,7 +882,7 @@
                 </div>
             </div> 
             
-            <div class="listBox">
+            <!--<div class="listBox">
                 <div class="list">
                     <div id="btnll">&lt;&lt;</div>
                     <div id="btnl">&lt;</div>
@@ -886,7 +892,8 @@
                     <div id="btngg">&gt;</div>
                     <div id="btng">&gt;&gt;</div>
                 </div>
-            </div>
+            </div>-->
+            
         </div><!--//main-content-->
         <footer></footer>
     </div><!--//wrapper-->
