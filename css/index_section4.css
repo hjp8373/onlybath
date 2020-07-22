@@ -74,76 +74,12 @@
     #review_C .pc_ver div:nth-child(4) img{height:375px;}
     #review_C .pc_ver .go {width: 192px;}
 }
-@media screen and (min-width:768px) and (max-width:1279px){ /*태블릿*/
-    #review_C h3{font-size: 30px;letter-spacing: 14px;top: 15%; right: 45%;transform: translate(30%, -50%);_display: none;}
-    #review_C h3 span{font-size: 25px;letter-spacing: 8px;}
-    #review_C .pc_ver{width: 100%;_border:1px solid red}
-    #review_C .pc_ver div{_width: 33.33%;padding-top: 200px;}   
-    #review_C .pc_ver div:nth-child(1){width: 30%;}
-    #review_C .pc_ver div:nth-child(2){width: 35%;}
-    #review_C .pc_ver div:nth-child(3){width: 35%;}    
-    #review_C .pc_ver div img {width: 95%;}
-    #review_C .pc_ver div span{text-align: left;}
-    #review_C .pc_ver div p{width: 95%;}
-    #review_C .pc_ver div p:nth-child(3){
-        text-align: left;
-        _border: 1px solid;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 6; /* 라인수 */
-        -webkit-box-orient: vertical;
-        word-wrap:break-word;
-    }
-    #review_C .pc_ver div:nth-child(1) img{height:220px;}
-    #review_C .pc_ver div:nth-child(2) img{height:340px;}
-    #review_C .pc_ver div:nth-child(3) img{height:280px;}
-    #review_C .pc_ver div:nth-child(4){display: none;}
-    #review_C .pc_ver a {bottom: 20px;right: 37%;_display: none;}
-    #review_C .pc_ver .go {width: 190px;}
-}
-@media screen and (max-width:767px){ /*mobile*/
-    .pc_ver{display: none;}
-    #review_C{
-        width: 90%;
-        position: relative;
-    }
-    #review_C h3{
-        font-size: 20px;
-        letter-spacing: 12px;
-        top: 15%; 
-        right: 40%;
-        transform: translate(30%, -50%);
-    }
-    #review_C h3 span{
-        font-size: 16px;
-        letter-spacing: 9px;
-    }
-    #review_C .mobile_ver{
-        display: block;
-        width: 100%;             
-        border: 1px solid;
-        transition: 1s;
-        background: brown;
-        margin: 0 auto;
-    }
-
-@media screen and (min-width:1280px) and (max-width:1599px){ /*large pc*/
-    #review_C {width: 90%;}
-    #review_C h3{font-size: 30px;letter-spacing: 14px}
-    #review_C h3 span{font-size: 25px;letter-spacing: 8px}
-    #review_C .pc_ver div:nth-child(1) img{height:250px;}
-    #review_C .pc_ver div:nth-child(2) img{height:390px;}
-    #review_C .pc_ver div:nth-child(3) img{height:300px;}
-    #review_C .pc_ver div:nth-child(4) img{height:375px;}
-    #review_C .pc_ver a{right: 14px;}
-    #review_C .pc_ver .go {width: 175px;}
-}
-@media screen and (min-width:768px) and (max-width:1279px){ /*태블릿*/
-    #review_C h3{font-size: 30px;letter-spacing: 14px;top: 15%; right: 45%;transform: translate(30%, -50%);}
-    #review_C h3 span{font-size: 25px;letter-spacing: 8px;}
-    #review_C .pc_ver{width: 100%}
-    #review_C .pc_ver div{padding-top: 200px;}   
+@media screen and (min-width:768px) and (max-width:1279px){ 
+    #review_C h3{font-size: 25px;letter-spacing: 14px;top: 100px; right: 45%;
+        transform: translate(30%, -50%); }
+    #review_C h3 span{font-size: 20px;letter-spacing: 8px;}
+    #review_C .pc_ver{width: 100%;}
+    #review_C .pc_ver div{padding-top: 150px;}   
     #review_C .pc_ver div:nth-child(1){width: 30%;}
     #review_C .pc_ver div:nth-child(2){width: 35%;}
     #review_C .pc_ver div:nth-child(3){width: 35%;}    
@@ -155,7 +91,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 6; /* 라인수 */
+        -webkit-line-clamp: 5;  /*라인수 */
         -webkit-box-orient: vertical;
         word-wrap:break-word;
     }
@@ -166,7 +102,8 @@
     #review_C .pc_ver a {bottom: 20px;right: 37%;}
     #review_C .pc_ver .go {width: 190px;}
 }
-@media screen and (max-width:767px){ /*mobile*/
+
+@media screen and (max-width:767px){ 
     .pc_ver{display: none;}
     #review_C{
         width: 90%;
@@ -264,7 +201,7 @@
             rgba(20, 20, 20, 1) 100%
           ); 
     }
-    .i_show {                               /* 모달 전체 영역*/
+    .i_show {                               
         width: 100vw;
         height: 100vh;
         position: fixed;
@@ -273,10 +210,10 @@
         background: rgba(0,0,0,0.7);
         z-index: 100;  
     }
-    .i_show > div{                           /*div 숨김*/
+    .i_show > div{                          
         display: none;
     }
-    .i_show > .modal{                        /*해당 div에 modal클래스 부여*/
+    .i_show > .modal{                        
         position: relative;
         display: block;
         width: 70%;
