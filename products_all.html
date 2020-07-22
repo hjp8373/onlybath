@@ -467,13 +467,15 @@
                 float: left;
             }
             article h3{
-                float: left;
+                position: absolute;
+                left: 50%; top: 0;
                 padding: 5px 0px 20px 10px;
                 height: 20%;
-                font-size: 1.1rem;
+                font-size: 0.95rem;
             }
             article > .articleInner > p{
-                float: left;
+                position: absolute;
+                left: 50%; top: 1.8rem;
                 width: 50%;
                 padding: 0px 0px 0px 10px;
                 font-size: 0.9rem;
@@ -631,7 +633,7 @@
                 var tg = radio.index(this);
                 
                 if(addItemsCount != 0){
-                    alert("장바구니를 모두 비워주세요");
+                    alert("견적서 초기화 후 스타일 변경이 가능합니다.");
                     return false;
                 }
                 
