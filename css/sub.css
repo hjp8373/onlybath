@@ -3,13 +3,13 @@ body{
     height: auto;
 }
 .wrapper{
-/*    display: -webkit-box; 
+    display: -webkit-box; 
     display: -ms-flexbox; 
-    display: flex;
+   /* display: flex;*/
     
     -webkit-box-orient: vertical; 
     -ms-flex-direction: column; 
-    flex-direction: column;*/
+    flex-direction: column;
     
     min-height: 100%;
 }
