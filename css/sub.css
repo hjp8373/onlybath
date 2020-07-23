@@ -1,3 +1,7 @@
+body{
+    overflow: auto;
+    height: auto;
+}
 .wrapper{
 /*    display: -webkit-box; 
     display: -ms-flexbox; 

@@ -259,7 +259,7 @@
     }
     .i_show .modal div p:nth-child(2){
         line-height: 1.5;
-        overflow-y: scroll;
+        overflow-y: scroll !imporatant;
         height: 74px;
         text-align: justify;
         margin-bottom: 10px
