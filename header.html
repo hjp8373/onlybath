@@ -12,7 +12,6 @@
     $(".mobtn").click(function(){
         $(this).toggleClass("change");
         
-/*        $('.main').css({'overflow': 'hidden', 'height': '100%'});*/
         $('.mobileNav').on('scroll touchmove mousewheel', function(event) {
             event.preventDefault();
             event.stopPropagation();
@@ -25,6 +24,7 @@
             $(".mobileNav").animate({left:"100%"}, 300);
         }
     });
+    $(".mobileNav").click(function(){})
     
     var rank = $(".rank li");
     var rankCount = 0;
@@ -65,7 +65,6 @@
             $('#glayLayer').hide();
             $('#login_wrap').hide();
         });
-        
     });
 </script>
 <div class="headerBox">
